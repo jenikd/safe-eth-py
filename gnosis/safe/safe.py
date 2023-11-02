@@ -586,6 +586,7 @@ class Safe(SafeCreator, ContractBase, metaclass=ABCMeta):
                 from_address=self.address,
                 block_identifier=block_identifier,
                 raise_exception=False,
+                force_batch_call=True,
             )
             modules_response, nonce, owners, threshold, version = results
             if (
