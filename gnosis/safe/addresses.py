@@ -848,6 +848,8 @@ MASTER_COPIES: Dict[EthereumNetwork, List[Tuple[str, int, str]]] = {
     EthereumNetwork.SONIC_DEVNET: [
         ("0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552", 10, "1.3.0"),
         ("0x3E5c63644E683549055b9Be8653de26E0B4CD36E", 10, "1.3.0+L2"),
+        ("0x639245e8476E03e789a244f279b5843b9633b2E7", 10, "1.4.1"),  # v1.4.1
+        ("0x76667330c237Fb40f28d74563cdAAae4b06C23Ec", 10, "1.4.1+L2"),  # v1.4.1+L2
     ],
     
     EthereumNetwork.ROOTSTOCK_MAINNET: [
@@ -2005,6 +2007,7 @@ PROXY_FACTORIES: Dict[EthereumNetwork, List[Tuple[str, int]]] = {
     ],
     EthereumNetwork.SONIC_DEVNET: [
         ("0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2", 10),  # v1.3.0
+        ("0xd9d2Ba03a7754250FDD71333F444636471CACBC4", 10),  # v1.4.1
     ],
     EthereumNetwork.ROOTSTOCK_MAINNET: [
         ("0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2", 3891234),  # v1.3.0
