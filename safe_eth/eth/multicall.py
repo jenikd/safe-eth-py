@@ -42,6 +42,9 @@ class Multicall(ContractBase):
     # https://github.com/mds1/multicall#deployments
     ADDRESSES = {
         EthereumNetwork.MAINNET: "0xcA11bde05977b3631167028862bE2a173976CA11",
+        EthereumNetwork.SONIC_TESTNET: "0xcA11bde05977b3631167028862bE2a173976CA11",
+        EthereumNetwork.SONIC_BLAZE_TESTNET: "0xcA11bde05977b3631167028862bE2a173976CA11",
+        EthereumNetwork.SONIC_MAINNET: "0xcA11bde05977b3631167028862bE2a173976CA11",
         EthereumNetwork.GOERLI: "0xcA11bde05977b3631167028862bE2a173976CA11",
         EthereumNetwork.SEPOLIA: "0xcA11bde05977b3631167028862bE2a173976CA11",
         EthereumNetwork.OPTIMISM: "0xcA11bde05977b3631167028862bE2a173976CA11",
